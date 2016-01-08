@@ -22,12 +22,12 @@ p.checkout {
 
 .btn {
   background-color: white;
-  color: black;
+  color: gray;
   border: none
 }
 
 .btn-primary:hover {
-  background-color: black;
+  background-color: gray;
   color: white;
   border: none
 }
@@ -46,9 +46,15 @@ p.checkout {
 
 /* Carousel
 ===================*/
+
+.item {
+  max-height: 500px;
+}
+
 .carousel-indicators {
   bottom: 0;
   border: none;
+  bottom:-50px;
 }
 
 .carousel-indicators .active {
@@ -59,39 +65,27 @@ p.checkout {
   border-color: lightgrey;
 }
 
-.carousel-inner {
-  margin-top: 25px;
-  max-height: 500px;
-  min-height: 500px;
-}
-
-.carousel-inner .item .img-responsive {
-  max-height: 500px;
-  max-width: auto;
-  align-items: center;
-  vertical-align: middle;
-}
-
 .carousel-control.left, .carousel-control.right{
 background: none !important;
 filter: progid:none !important;
 color: lightgrey;
 }
 
-.img-responsive {
-  max-height: 100px;
-  margin: none;
-}
-
 .jumbotron {
   background-color: white;
-  text-align: center;
-  padding-top: 70px;
+  max-height: 500px;
+  margin-bottom: 30px;
 }
 
-.jumbotron h1 {
-  text-align: left;
+.carousel-inner {
+  max-height: 500px;
+  width: 100%;
 }
+
+.carousel-caption {
+  text-align: center;
+}
+
 
 /*----- Content ----*/
 
@@ -118,6 +112,7 @@ color: lightgrey;
   color: grey;
 }
 
+
 .glyphicon-leaf {
   font-size: 20px;
   display: block;
@@ -139,6 +134,12 @@ color: lightgrey;
 
 
 .container .footer img {
+  height: 40px;
+  width: auto;
+  text-align: left;
+}
+
+img.row {
   height: 40px;
   width: auto;
   text-align: left;
