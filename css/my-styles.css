@@ -4,6 +4,10 @@
   padding-top: 70px;
 }
 
+.jumbotron h1 {
+  text-align: left;
+}
+
 .container footer {
   padding: 70px;
 }
