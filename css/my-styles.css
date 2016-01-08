@@ -49,6 +49,7 @@ p.checkout {
 
 .item {
   max-height: 500px;
+  align-items: center;
 }
 
 .carousel-indicators {
@@ -100,10 +101,10 @@ color: lightgrey;
   vertical-align: middle;
 }
 
-
 .row {
   text-align: center;
 }
+
 
 .glyphicon {
   font-size: 3em;
@@ -144,4 +145,9 @@ img.row {
   height: 40px;
   width: auto;
   text-align: left;
+}
+
+img.footer {
+  height: 20px;
+  width: auto;
 }

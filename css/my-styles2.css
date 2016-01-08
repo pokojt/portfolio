@@ -17,3 +17,11 @@ img.responsive {
   border: 5px;
   border-color: grey;
 }
+
+.moreprojects {
+  text-align: left;
+}
+
+a {
+  color: #C0D9D9;
+}
