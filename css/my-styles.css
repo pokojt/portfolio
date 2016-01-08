@@ -1,0 +1,84 @@
+.jumbotron {
+  background-color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.container footer {
+  padding: 70px;
+}
+
+.glyphicon {
+  font-size: 3em;
+  display: block;
+  text-align: center;
+
+}
+
+/* buttons
+==============================*/
+
+.btn {
+  background-color: white;
+  color: black;
+  border: none
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+  border: none
+}
+
+.btn-default {
+  background-color: #C0D9D9;
+  color: black;
+  border: none
+}
+
+.btn-primary:focus {
+  background-color: white;
+  color: black;
+  border: none
+}
+
+/* Carousel
+==============================*/
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.carousel-indicators li {
+  border-color: black;
+}
+
+.carousel {
+  min-height: 500px;
+
+}
+
+.carousel-inner {
+  margin-top: 25px;
+}
+
+.carousel-inner .item {
+  max-height: 500px;
+  max-width: auto;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.footer {
+  background-color:#e9e9e9;
+  margin-top: 25px;
+  padding-bottom: 100px;
+}
+
+.img-responsive {
+  max-height: 100px;
+  margin: none;
+}

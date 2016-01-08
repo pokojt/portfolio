@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vacation in Iceland</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+  </head>
+<body>
+
+<!--Navigation-->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-muted" href="#">Taylor Pokoj</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#"></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="otherprojects.html">Web Development</a></li>
+                  <li><a href="#">Music</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Personal Blog</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!--Carousel -->
+
+    <div id="myCarousel" class="carousel slide jumbotron" data-ride="carousel" data-interval="3000">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-2="0"></li>
+          <li data-target="#myCarousel" data-slide-2="1"></li>
+          <li data-target="#myCarousel" data-slide-2="2"></li>
+        </ol>
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <img src="img/taythan.jpg">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Meet Taylor.</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/trees.JPG">
+              <div class="container">
+                <div class="carousel-caption">
+                   <h1></h1>
+                   <p class="lead">Portland-based web developer and adventurer...</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/ukein.jpeg">
+              <div class="container">
+                <div class="carousel-caption">
+                   <h1></h1>
+                   <p class="lead">musician and ice cream enthusiast.</p>
+                   <p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/otchen.jpeg">
+              <div class="container">
+                <div class="carousel-caption">
+                   <h1></h1>
+                   <p class="lead"></p>
+                   <p>
+                   <a class="btn btn-primary btn-lg" data-toggle="modal" href="#textModal">Say hi.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div>
+
+<!--end carousel-->
+
+<!--Modal-->
+
+    <div class="modal fade" id="textModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Subscribe to our blog!</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form">
+              <div class="form-group">
+                <label class="sr-only" for=MobilePhone>Email Address</label>
+                <input type="tel" class="form-control" id="MobilePhone" placeholder="Email Address">
+              </div>
+              <button type="submit" class="btn btn-default" data-dismiss="modal">Subscribe!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Content-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <b class="glyphicon glyphicon-plane"></b>
+          <h2>Day 1</h2>
+          <p>Today we just go to Iceland. It's very cold. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim nisl in velit tempor, sed pulvinar libero accumsan. Curabitur sit amet tempor risus. Nunc elementum pretium risus, non ullamcorper urna efficitur id. Etiam pulvinar scelerisque turpis, sit amet pellentesque velit tempor at. Fusce vel euismod dui. Praesent finibus ultrices lorem sed condimentum.</p>
+          <div class="row">
+            <div class="col-sm-6 hidden-xs">
+              <img class="img-responsive" src="img/iceland-lights.jpg" alt="Northern lights in Iceland">
+            </div>
+            <div class="col-sm-6 hidden-xs">
+              <img class="img-responsive" src="img/city.jpg" alt="Northern lights in Iceland">
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <b class="glyphicon glyphicon-music"></b>
+          <h2>Day 2</h2>
+          <p>We are enjoing Iceland! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim nisl in velit tempor, sed pulvinar libero accumsan. Curabitur sit amet tempor risus. Nunc elementum pretium risus, non ullamcorper urna efficitur id. Etiam pulvinar scelerisque turpis, sit amet pellentesque velit tempor at. Fusce vel euismod dui. Praesent finibus ultrices lorem sed condimentum.</p>
+          <div class="row">
+            <div class="col-sm-6 hidden-xs">
+              <img class="img-responsive" src="img/icehotel.jpg" alt="Hotel in Iceland">
+            </div>
+            <div class="col-sm-6 hidden-xs">
+              <img class="img-responsive" src="img/sheep.jpg" alt="Sheep in Iceland">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <b class="glyphicon glyphicon-heart"></b>
+          <h2>Day 3</h2>
+          <p>We decided to move to Iceland forever. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim nisl in velit tempor, sed pulvinar libero accumsan. Curabitur sit amet tempor risus. Nunc elementum pretium risus, non ullamcorper urna efficitur id. Etiam pulvinar scelerisque turpis, sit amet pellentesque velit tempor at. Fusce vel euismod dui. Praesent finibus ultrices lorem sed condimentum.</p>
+          <div class="row">
+            <div class="col-sm-6 hidden-xs">
+              <img class="img-responsive" src="img/water.jpg" alt="Water in Iceland">
+            </div>
+            <div class="col-sm-6 hidden-xs">
+              <img class="img-responsive" src="img/hike.jpg" alt="Hiking in Iceland">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="container">
+        <hr>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>About Us</h3>
+            <p>We are Brooke and Taylor, we go to Epicodus!  Nunc elementum pretium risus, non ullamcorper urna efficitur id. Etiam pulvinar scelerisque turpis, sit amet pellentesque velit tempor at. Fusce vel euismod dui. Praesent finibus ultrices lorem sed condimentum.</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Contact Information</h3>
+            <ul>
+              <li>Brooke Hurford | <a href="mailto:brookebhurford@gmail.com">Email Me</a></li>
+              <li>Taylor Pokoj | <a href="mailto:pokojt@gmail.com">Email Me</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <p>&copy; 2016 Travel Iceland - By Taylor and Brooke, Inc.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
