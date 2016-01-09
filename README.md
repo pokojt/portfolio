@@ -10,7 +10,7 @@ This portfolio contains the files for Taylor's portfolio landing page. The conte
 
 ##Setup##
 
-You can view the site [here.](pokojt.github.io)
+You can view the site [here.](pokojt.github.io/portfolio)
 
 ##Technologies Used##
 
@@ -23,4 +23,4 @@ giHub and gitHub Pages
 
 Copyright (c) 2016 Taylor Pokoj.
 
-This software is is licensed under the MIT license. 
+This software is is licensed under the MIT license.
