@@ -10,7 +10,7 @@ This portfolio contains the files for Taylor's portfolio landing page. The conte
 
 ##Setup##
 
-You can view the site [here.](pokojt.github.io/portfolio)
+You can view the site [here.](http://pokojt.github.io/portfolio)
 
 ##Technologies Used##
 
