@@ -23,4 +23,4 @@ giHub and gitHub Pages
 
 Copyright (c) 2016 Taylor Pokoj.
 
-This software is is licensed under the MIT license.
+This software is is licensed under the MIT license. 
