@@ -15,7 +15,7 @@ img.responsive {
   height: auto;
   max-width: 300px;
   border: 5px;
-  border-color: grey;
+  border-right-color: grey;
 }
 
 .moreprojects {
